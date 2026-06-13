@@ -55,6 +55,13 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .rsbar { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
 .rst { width: 56px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
 .rsf { height: 100%; border-radius: 2px; }
+.criteria-box { border: 0.5px solid var(--border); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1rem; background: var(--bg2); }
+.criteria-box summary { font-size: 13px; font-weight: 500; cursor: pointer; user-select: none; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.criteria-box summary::-webkit-details-marker { display: none; }
+.toggle-hint { font-size: 11px; color: var(--text2); font-weight: 400; }
+.criteria-box[open] .toggle-hint { display: none; }
+.criteria-box ol { margin-top: 0.75rem; padding-left: 1.25rem; }
+.criteria-box ol li { font-size: 12px; color: var(--text2); line-height: 2; }
 .footer { font-size: 11px; color: var(--text2); margin-top: 0.75rem; text-align: right; }
 .loading { text-align: center; padding: 3rem; color: var(--text2); font-size: 14px; }
 </style>
@@ -77,6 +84,20 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
     <span style="display:flex;align-items:center;gap:5px;"><span class="legend-dot" style="background:#854F0B;"></span>前 20 強</span>
     <span style="display:flex;align-items:center;gap:5px;"><span class="legend-dot" style="background:var(--bg3);border:0.5px solid var(--border);"></span>其餘個股</span>
   </div>
+
+  <details class="criteria-box">
+  <summary>Minervini 8 大選股條件 <span class="toggle-hint">點擊展開</span></summary>
+  <ol>
+    <li>股價目前高於 150 日及 200 日移動平均線</li>
+    <li>150 日均線高於 200 日均線</li>
+    <li>200 日均線呈現上升趨勢（至少持續 22 個交易日）</li>
+    <li>50 日均線同時高於 150 日均線與 200 日均線</li>
+    <li>股價高於 50 日均線</li>
+    <li>股價高於 52 週低點至少 30%</li>
+    <li>股價在 52 週高點的 25% 範圍內</li>
+    <li>RS Rating ≥ 70（全市場動能百分位，以 FinLab 台股資料計算）</li>
+  </ol>
+</details>
   <div class="controls"><input type="text" id="search" placeholder="搜尋股號或名稱…"></div>
   <div class="scroll-wrap">
     <table>
