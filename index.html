@@ -47,7 +47,7 @@ tbody tr.top20 { background: var(--amber-bg); }
 tbody tr.top20:hover { background: var(--amber-bg2); }
 tbody tr.top20 td { color: var(--amber-text); }
 tbody tr.top20 .nc { color: var(--amber-muted); }
-td { padding: 8px 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+td { padding: 8px 12px; overflow: visible; white-space: nowrap; }
 td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .rb { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; font-size: 10px; font-weight: 500; background: var(--amber-badge); color: var(--amber-bg); }
 .tb { display: inline-block; font-size: 9px; font-weight: 500; padding: 1px 5px; border-radius: 3px; margin-left: 5px; background: var(--amber-badge); color: var(--amber-bg); vertical-align: middle; }
@@ -104,8 +104,8 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
       <thead>
         <tr>
           <th style="width:46px;" class="num" onclick="sortBy('rank')">#</th>
-          <th style="width:90px;" onclick="sortBy('symbol')">股號</th>
-          <th style="width:110px;" onclick="sortBy('name')">名稱</th>
+          <th style="width:100px;" onclick="sortBy('symbol')">股號</th>
+          <th style="width:130px;" onclick="sortBy('name')">名稱</th>
           <th></th>
           <th style="width:150px;" class="num" onclick="sortBy('rs')">RS Rating ↓</th>
         </tr>
