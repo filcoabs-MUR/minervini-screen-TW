@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minervini RS & Trend Screener</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #ffffff; --bg2: #f5f5f3; --bg3: #eeecea;
+  --text: #1a1a18; --text2: #6b6b68; --border: rgba(0,0,0,0.1);
+  --amber-bg: #FAEEDA; --amber-bg2: #FAC775;
+  --amber-text: #412402; --amber-muted: #633806; --amber-badge: #854F0B;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a18; --bg2: #242422; --bg3: #2e2e2b;
+    --text: #e8e8e2; --text2: #888882; --border: rgba(255,255,255,0.1);
+    --amber-bg: #2e2200; --amber-bg2: #3d2d00;
+    --amber-text: #FAEEDA; --amber-muted: #FAC775; --amber-badge: #FAC775;
+  }
+}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+.container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+.header { padding-bottom: 1.25rem; border-bottom: 0.5px solid var(--border); margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 0.5rem; }
+.header h1 { font-size: 20px; font-weight: 500; }
+.header-sub { font-size: 13px; color: var(--text2); margin-top: 3px; }
+.updated { font-size: 12px; color: var(--text2); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 1.25rem; }
+.stat { background: var(--bg2); border-radius: 8px; padding: 0.875rem 1rem; }
+.stat-label { font-size: 12px; color: var(--text2); margin-bottom: 4px; }
+.stat-value { font-size: 22px; font-weight: 500; }
+.legend { display: flex; gap: 16px; font-size: 11px; color: var(--text2); margin-bottom: 0.875rem; align-items: center; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.controls { margin-bottom: 1rem; }
+.controls input { width: 100%; padding: 0 12px; height: 38px; font-size: 14px; border-radius: 8px; border: 0.5px solid var(--border); background: var(--bg); color: var(--text); outline: none; }
+.controls input:focus { border-color: rgba(128,128,128,0.5); }
+.scroll-wrap { border: 0.5px solid var(--border); border-radius: 12px; overflow: hidden; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+thead th { font-size: 11px; font-weight: 500; color: var(--text2); text-align: left; padding: 8px 12px; border-bottom: 0.5px solid var(--border); background: var(--bg2); cursor: pointer; user-select: none; }
+thead th:hover { color: var(--text); }
+thead th.num { text-align: right; }
+tbody tr { border-bottom: 0.5px solid var(--border); }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: var(--bg2); }
+tbody tr.top20 { background: var(--amber-bg); }
+tbody tr.top20:hover { background: var(--amber-bg2); }
+tbody tr.top20 td { color: var(--amber-text); }
+tbody tr.top20 .nc { color: var(--amber-muted); }
+td { padding: 8px 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.rb { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; font-size: 10px; font-weight: 500; background: var(--amber-badge); color: var(--amber-bg); }
+.tb { display: inline-block; font-size: 9px; font-weight: 500; padding: 1px 5px; border-radius: 3px; margin-left: 5px; background: var(--amber-badge); color: var(--amber-bg); vertical-align: middle; }
+.nc { color: var(--text2); font-size: 12px; }
+.rsbar { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.rst { width: 56px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+.rsf { height: 100%; border-radius: 2px; }
+.footer { font-size: 11px; color: var(--text2); margin-top: 0.75rem; text-align: right; }
+.loading { text-align: center; padding: 3rem; color: var(--text2); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>Minervini RS &amp; Trend Screener</h1>
+      <div class="header-sub">台股 8 條件全過個股｜每週五盤後更新</div>
+    </div>
+    <div class="updated" id="updated">載入中…</div>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="stat-label">通過個股</div><div class="stat-value" id="s-total">—</div></div>
+    <div class="stat"><div class="stat-label">平均 RS Rating</div><div class="stat-value" id="s-avg">—</div></div>
+    <div class="stat"><div class="stat-label">目前顯示</div><div class="stat-value" id="s-showing">—</div></div>
+  </div>
+  <div class="legend">
+    <span style="display:flex;align-items:center;gap:5px;"><span class="legend-dot" style="background:#854F0B;"></span>前 20 強</span>
+    <span style="display:flex;align-items:center;gap:5px;"><span class="legend-dot" style="background:var(--bg3);border:0.5px solid var(--border);"></span>其餘個股</span>
+  </div>
+  <div class="controls"><input type="text" id="search" placeholder="搜尋股號或名稱…"></div>
+  <div class="scroll-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:46px;" class="num" onclick="sortBy('rank')">#</th>
+          <th style="width:80px;" onclick="sortBy('symbol')">股號</th>
+          <th style="width:110px;" onclick="sortBy('name')">名稱</th>
+          <th></th>
+          <th style="width:150px;" class="num" onclick="sortBy('rs')">RS Rating ↓</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"><tr><td colspan="5" class="loading">載入資料中…</td></tr></tbody>
+    </table>
+  </div>
+  <div class="footer">點擊欄位標題可排序｜Minervini 8 條件：均線排列 + RS ≥ 70｜資料來源：FinLab</div>
+</div>
+<script>
+let allData=[], sortKey='rank', sortAsc=true, query='';
+function rsColor(rs){
+  if(rs>=95)return'#A32D2D';
+  if(rs>=90)return'#854F0B';
+  if(rs>=80)return'#0F6E56';
+  return'#185FA5';
+}
+function render(){
+  const q=query.toLowerCase();
+  let f=allData.filter(d=>d.symbol.toLowerCase().includes(q)||d.name.toLowerCase().includes(q));
+  f.sort((a,b)=>{
+    let va=a[sortKey],vb=b[sortKey];
+    if(typeof va==='string')return sortAsc?va.localeCompare(vb):vb.localeCompare(va);
+    return sortAsc?va-vb:vb-va;
+  });
+  document.getElementById('s-showing').textContent=f.length;
+  document.getElementById('tbody').innerHTML=f.map(d=>{
+    const top=d.rank<=20;
+    const pct=Math.round((d.rs-70)/29*100);
+    const col=rsColor(d.rs);
+    return`<tr class="${top?'top20':''}">
+      <td class="num">${top?`<span class="rb">${d.rank}</span>`:`<span style="font-size:11px;color:var(--text2);">${d.rank}</span>`}</td>
+      <td>${top?`<strong>${d.symbol}</strong><span class="tb">TOP20</span>`:d.symbol}</td>
+      <td><span class="nc">${d.name}</span></td>
+      <td></td>
+      <td class="num"><div class="rsbar"><span style="font-weight:500;">${d.rs.toFixed(1)}</span><div class="rst"><div class="rsf" style="width:${pct}%;background:${col};"></div></div></div></td>
+    </tr>`;
+  }).join('');
+}
+window.sortBy=function(k){
+  if(sortKey===k)sortAsc=!sortAsc;
+  else{sortKey=k;sortAsc=k==='rank';}
+  render();
+};
+document.getElementById('search').addEventListener('input',e=>{query=e.target.value;render();});
+fetch('data.json?v='+Date.now())
+  .then(r=>r.json())
+  .then(j=>{
+    allData=j.stocks;
+    document.getElementById('updated').textContent='更新日期：'+j.updated;
+    document.getElementById('s-total').textContent=j.total;
+    document.getElementById('s-avg').textContent=(allData.reduce((s,d)=>s+d.rs,0)/allData.length).toFixed(1);
+    render();
+  })
+  .catch(()=>{
+    document.getElementById('tbody').innerHTML='<tr><td colspan="5" class="loading">資料載入失敗，請稍後再試</td></tr>';
+  });
+</script>
+</body>
+</html>
