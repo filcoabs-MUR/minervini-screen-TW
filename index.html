@@ -149,7 +149,7 @@ function render(){
     if(typeof va==='string')return sortAsc?va.localeCompare(vb):vb.localeCompare(va);
     return sortAsc?va-vb:vb-va;
   });
-  document.getElementById('s-showing').textContent=f.length;
+
   document.getElementById('tbody').innerHTML=f.map(d=>{
     const top=d.rank<=20;
     const pct=Math.round((d.rs-70)/29*100);
