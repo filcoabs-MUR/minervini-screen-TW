@@ -21,7 +21,7 @@
   }
 }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
-.container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+.container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
 .header { padding-bottom: 1.25rem; border-bottom: 0.5px solid var(--border); margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 0.5rem; }
 .header h1 { font-size: 20px; font-weight: 500; }
 .header-sub { font-size: 13px; color: var(--text2); margin-top: 3px; }
@@ -30,14 +30,21 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; b
 .stat { background: var(--bg2); border-radius: 8px; padding: 0.875rem 1rem; }
 .stat-label { font-size: 12px; color: var(--text2); margin-bottom: 4px; }
 .stat-value { font-size: 22px; font-weight: 500; }
-.legend { display: flex; gap: 16px; font-size: 11px; color: var(--text2); margin-bottom: 0.875rem; align-items: center; }
+.criteria-box { border: 0.5px solid var(--border); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1rem; background: var(--bg2); }
+.criteria-box summary { font-size: 13px; font-weight: 500; cursor: pointer; user-select: none; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.criteria-box summary::-webkit-details-marker { display: none; }
+.toggle-hint { font-size: 11px; color: var(--text2); font-weight: 400; }
+.criteria-box[open] .toggle-hint { display: none; }
+.criteria-box ol { margin-top: 0.75rem; padding-left: 1.25rem; }
+.criteria-box ol li { font-size: 12px; color: var(--text2); line-height: 2; }
+.legend { display: flex; gap: 16px; font-size: 11px; color: var(--text2); margin-bottom: 0.875rem; align-items: center; flex-wrap: wrap; }
 .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 .controls { margin-bottom: 1rem; }
 .controls input { width: 100%; padding: 0 12px; height: 38px; font-size: 14px; border-radius: 8px; border: 0.5px solid var(--border); background: var(--bg); color: var(--text); outline: none; }
 .controls input:focus { border-color: rgba(128,128,128,0.5); }
 .scroll-wrap { border: 0.5px solid var(--border); border-radius: 12px; overflow: hidden; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
-thead th { font-size: 11px; font-weight: 500; color: var(--text2); text-align: left; padding: 8px 12px; border-bottom: 0.5px solid var(--border); background: var(--bg2); cursor: pointer; user-select: none; }
+thead th { font-size: 11px; font-weight: 500; color: var(--text2); text-align: left; padding: 8px 12px; border-bottom: 0.5px solid var(--border); background: var(--bg2); cursor: pointer; user-select: none; white-space: nowrap; }
 thead th:hover { color: var(--text); }
 thead th.num { text-align: right; }
 tbody tr { border-bottom: 0.5px solid var(--border); }
@@ -47,23 +54,27 @@ tbody tr.top20 { background: var(--amber-bg); }
 tbody tr.top20:hover { background: var(--amber-bg2); }
 tbody tr.top20 td { color: var(--amber-text); }
 tbody tr.top20 .nc { color: var(--amber-muted); }
-td { padding: 8px 12px; overflow: visible; white-space: nowrap; }
+tbody tr.top20 .tag-badge { opacity: 0.85; }
+td { padding: 8px 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .rb { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; font-size: 10px; font-weight: 500; background: var(--amber-badge); color: var(--amber-bg); }
 .tb { display: inline-block; font-size: 9px; font-weight: 500; padding: 1px 5px; border-radius: 3px; margin-left: 5px; background: var(--amber-badge); color: var(--amber-bg); vertical-align: middle; }
 .nc { color: var(--text2); font-size: 12px; }
-.rsbar { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
-.rst { width: 56px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+.tag-badge { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 4px; background: var(--bg3); color: var(--text2); border: 0.5px solid var(--border); white-space: nowrap; }
+.rsbar { display: flex; align-items: center; gap: 6px; justify-content: flex-end; }
+.rst { width: 48px; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
 .rsf { height: 100%; border-radius: 2px; }
-.criteria-box { border: 0.5px solid var(--border); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1rem; background: var(--bg2); }
-.criteria-box summary { font-size: 13px; font-weight: 500; cursor: pointer; user-select: none; list-style: none; display: flex; justify-content: space-between; align-items: center; }
-.criteria-box summary::-webkit-details-marker { display: none; }
-.toggle-hint { font-size: 11px; color: var(--text2); font-weight: 400; }
-.criteria-box[open] .toggle-hint { display: none; }
-.criteria-box ol { margin-top: 0.75rem; padding-left: 1.25rem; }
-.criteria-box ol li { font-size: 12px; color: var(--text2); line-height: 2; }
-.footer { font-size: 11px; color: var(--text2); margin-top: 0.75rem; text-align: right; }
+.from-high { font-size: 11px; color: var(--text2); white-space: nowrap; }
+tbody tr.top20 .from-high { color: var(--amber-muted); }
+.footer { font-size: 11px; color: var(--text2); margin-top: 0.75rem; text-align: right; line-height: 2; }
+.footer a { color: var(--text2); text-decoration: none; }
+.footer a:hover { color: var(--text); }
 .loading { text-align: center; padding: 3rem; color: var(--text2); font-size: 14px; }
+@media (max-width: 600px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .rst { display: none; }
+  .tag-col { display: none; }
+}
 </style>
 </head>
 <body>
@@ -71,7 +82,7 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="header">
     <div>
       <h1>Minervini RS &amp; Trend Screener</h1>
-      <div class="header-sub">台股 8 條件全過個股｜每週五盤後更新</div>
+      <div class="header-sub">台股 8 條件全過個股｜每週五下午六點更新</div>
     </div>
     <div class="updated" id="updated">載入中…</div>
   </div>
@@ -80,46 +91,44 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
     <div class="stat"><div class="stat-label">平均 RS Rating</div><div class="stat-value" id="s-avg">—</div></div>
     <div class="stat"><div class="stat-label">目前顯示</div><div class="stat-value" id="s-showing">—</div></div>
   </div>
+  <details class="criteria-box">
+    <summary>Minervini 8 大選股條件 <span class="toggle-hint">點擊展開</span></summary>
+    <ol>
+      <li>股價目前高於 150 日及 200 日移動平均線</li>
+      <li>150 日均線高於 200 日均線</li>
+      <li>200 日均線呈現上升趨勢（至少持續 22 個交易日）</li>
+      <li>50 日均線同時高於 150 日均線與 200 日均線</li>
+      <li>股價高於 50 日均線</li>
+      <li>股價高於 52 週低點至少 30%</li>
+      <li>股價在 52 週高點的 25% 範圍內</li>
+      <li>RS Rating ≥ 70（全市場動能百分位，以 FinLab 台股資料計算）</li>
+    </ol>
+  </details>
   <div class="legend">
     <span style="display:flex;align-items:center;gap:5px;"><span class="legend-dot" style="background:#854F0B;"></span>前 20 強</span>
     <span style="display:flex;align-items:center;gap:5px;"><span class="legend-dot" style="background:var(--bg3);border:0.5px solid var(--border);"></span>其餘個股</span>
+    <span style="color:var(--text2);">距高點 = 目前股價距 52 週高點的差距</span>
   </div>
-
-  <details class="criteria-box">
-  <summary>Minervini 8 大選股條件 <span class="toggle-hint">點擊展開</span></summary>
-  <ol>
-    <li>股價目前高於 150 日及 200 日移動平均線</li>
-    <li>150 日均線高於 200 日均線</li>
-    <li>200 日均線呈現上升趨勢（至少持續 22 個交易日）</li>
-    <li>50 日均線同時高於 150 日均線與 200 日均線</li>
-    <li>股價高於 50 日均線</li>
-    <li>股價高於 52 週低點至少 30%</li>
-    <li>股價在 52 週高點的 25% 範圍內</li>
-    <li>RS Rating ≥ 70（全市場動能百分位，以 FinLab 台股資料計算）</li>
-  </ol>
-</details>
-  <div class="controls"><input type="text" id="search" placeholder="搜尋股號或名稱…"></div>
+  <div class="controls"><input type="text" id="search" placeholder="搜尋篩選結果中的股號或名稱…"></div>
   <div class="scroll-wrap">
     <table>
       <thead>
         <tr>
           <th style="width:46px;" class="num" onclick="sortBy('rank')">#</th>
-          <th style="width:100px;" onclick="sortBy('symbol')">股號</th>
-          <th style="width:130px;" onclick="sortBy('name')">名稱</th>
-          <th></th>
+          <th style="width:90px;" onclick="sortBy('symbol')">股號</th>
+          <th style="width:100px;" onclick="sortBy('name')">名稱</th>
+          <th class="tag-col" style="width:110px;" onclick="sortBy('tag')">產業</th>
+          <th style="width:80px;" class="num" onclick="sortBy('from_high')">距高點</th>
           <th style="width:150px;" class="num" onclick="sortBy('rs')">RS Rating ↓</th>
         </tr>
       </thead>
-      <tbody id="tbody"><tr><td colspan="5" class="loading">載入資料中…</td></tr></tbody>
+      <tbody id="tbody"><tr><td colspan="6" class="loading">載入資料中…</td></tr></tbody>
     </table>
   </div>
   <div class="footer">
-  點擊欄位標題可排序｜Minervini 8 條件：均線排列 + RS ≥ 70｜資料來源：FinLab
-  <br><br>
-  <a href="https://t.me/Murph41" target="_blank" style="color:var(--text2);text-decoration:none;">
-    歡迎給我建議 Telegram 交流 → @Murph41
-  </a>
-</div>
+    點擊欄位標題可排序｜Minervini 8 條件：均線排列 + RS ≥ 70｜資料來源：FinLab<br>
+    <a href="https://t.me/Murph41" target="_blank">對選股有興趣？歡迎加入 Telegram 交流 → @Murph41</a>
+  </div>
 </div>
 <script>
 let allData=[], sortKey='rank', sortAsc=true, query='';
@@ -131,7 +140,7 @@ function rsColor(rs){
 }
 function render(){
   const q=query.toLowerCase();
-  let f=allData.filter(d=>d.symbol.toLowerCase().includes(q)||d.name.toLowerCase().includes(q));
+  let f=allData.filter(d=>d.symbol.toLowerCase().includes(q)||d.name.toLowerCase().includes(q)||(d.tag&&d.tag.toLowerCase().includes(q)));
   f.sort((a,b)=>{
     let va=a[sortKey],vb=b[sortKey];
     if(typeof va==='string')return sortAsc?va.localeCompare(vb):vb.localeCompare(va);
@@ -142,11 +151,15 @@ function render(){
     const top=d.rank<=20;
     const pct=Math.round((d.rs-70)/29*100);
     const col=rsColor(d.rs);
+    const fh=d.from_high!==undefined?d.from_high:null;
+    const fhStr=fh===null?'—':(fh===0?'高點附近':`${fh.toFixed(1)}%`);
+    const fhColor=fh===0?'#0F6E56':(fh>-5?'#854F0B':'');
     return`<tr class="${top?'top20':''}">
       <td class="num">${top?`<span class="rb">${d.rank}</span>`:`<span style="font-size:11px;color:var(--text2);">${d.rank}</span>`}</td>
       <td>${top?`<strong>${d.symbol}</strong><span class="tb">TOP20</span>`:d.symbol}</td>
       <td><span class="nc">${d.name}</span></td>
-      <td></td>
+      <td class="tag-col"><span class="tag-badge">${d.tag||'—'}</span></td>
+      <td class="num"><span class="from-high" style="${fhColor?'color:'+fhColor+';':''}">${fhStr}</span></td>
       <td class="num"><div class="rsbar"><span style="font-weight:500;">${d.rs.toFixed(1)}</span><div class="rst"><div class="rsf" style="width:${pct}%;background:${col};"></div></div></div></td>
     </tr>`;
   }).join('');
@@ -167,7 +180,7 @@ fetch('data.json?v='+Date.now())
     render();
   })
   .catch(()=>{
-    document.getElementById('tbody').innerHTML='<tr><td colspan="5" class="loading">資料載入失敗，請稍後再試</td></tr>';
+    document.getElementById('tbody').innerHTML='<tr><td colspan="6" class="loading">資料載入失敗，請稍後再試</td></tr>';
   });
 </script>
 </body>
