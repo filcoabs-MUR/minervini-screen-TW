@@ -1,646 +1,1278 @@
 {
-  "updated": "2026-07-31",
-  "total": 80,
+  "updated": "2026-08-07",
+  "total": 159,
   "stocks": [
     {
       "rank": 1,
-      "symbol": "3441",
-      "name": "聯一光電",
-      "rs": 98.2,
-      "from_high": -12.3,
-      "tag": "光電業"
+      "symbol": "3189",
+      "name": "景碩",
+      "rs": 99.0,
+      "from_high": -12.4,
+      "tag": "半導體業"
     },
     {
       "rank": 2,
-      "symbol": "2059",
-      "name": "川湖",
-      "rs": 97.8,
-      "from_high": -11.8,
-      "tag": "電子零組件業"
+      "symbol": "2408",
+      "name": "南亞科",
+      "rs": 98.9,
+      "from_high": -9.5,
+      "tag": "半導體業"
     },
     {
       "rank": 3,
-      "symbol": "6432",
-      "name": "今展科",
-      "rs": 97.5,
-      "from_high": -11.0,
+      "symbol": "3037",
+      "name": "欣興",
+      "rs": 98.8,
+      "from_high": -15.5,
       "tag": "電子零組件業"
     },
     {
       "rank": 4,
-      "symbol": "3229",
-      "name": "晟鈦",
-      "rs": 96.4,
-      "from_high": -20.7,
-      "tag": "電子零組件業"
+      "symbol": "1303",
+      "name": "南亞",
+      "rs": 98.7,
+      "from_high": -18.3,
+      "tag": "塑膠工業"
     },
     {
       "rank": 5,
-      "symbol": "8271",
-      "name": "宇瞻",
-      "rs": 96.3,
-      "from_high": -17.7,
-      "tag": "半導體業"
+      "symbol": "8046",
+      "name": "南電",
+      "rs": 98.5,
+      "from_high": -23.7,
+      "tag": "電子零組件業"
     },
     {
       "rank": 6,
-      "symbol": "6538",
-      "name": "倉和",
-      "rs": 95.4,
-      "from_high": -14.8,
+      "symbol": "2383",
+      "name": "台光電",
+      "rs": 98.5,
+      "from_high": -16.2,
       "tag": "電子零組件業"
     },
     {
       "rank": 7,
-      "symbol": "2451",
-      "name": "創見",
-      "rs": 95.2,
-      "from_high": -23.5,
-      "tag": "半導體業"
+      "symbol": "8039",
+      "name": "台虹",
+      "rs": 98.4,
+      "from_high": -7.8,
+      "tag": "電子零組件業"
     },
     {
       "rank": 8,
-      "symbol": "2395",
-      "name": "研華",
-      "rs": 94.4,
-      "from_high": -8.9,
-      "tag": "電腦及週邊設備業"
+      "symbol": "2059",
+      "name": "川湖",
+      "rs": 98.3,
+      "from_high": 0.0,
+      "tag": "電子零組件業"
     },
     {
       "rank": 9,
-      "symbol": "2883",
-      "name": "凱基金",
-      "rs": 94.4,
-      "from_high": -1.4,
-      "tag": "金融保險業"
+      "symbol": "6265",
+      "name": "方土昶",
+      "rs": 98.1,
+      "from_high": -14.4,
+      "tag": "電子通路業"
     },
     {
       "rank": 10,
-      "symbol": "2887",
-      "name": "台新新光金",
-      "rs": 94.1,
-      "from_high": -4.8,
-      "tag": "金融保險業"
+      "symbol": "6213",
+      "name": "聯茂",
+      "rs": 98.1,
+      "from_high": -8.4,
+      "tag": "電子零組件業"
     },
     {
       "rank": 11,
-      "symbol": "2885",
-      "name": "元大金",
-      "rs": 93.9,
-      "from_high": -5.8,
-      "tag": "金融保險業"
+      "symbol": "6949",
+      "name": "沛爾生醫-創",
+      "rs": 97.6,
+      "from_high": -15.8,
+      "tag": "生技醫療業"
     },
     {
       "rank": 12,
-      "symbol": "2923",
-      "name": "鼎固-KY",
-      "rs": 93.6,
-      "from_high": -20.5,
-      "tag": "建材營造"
-    },
-    {
-      "rank": 13,
-      "symbol": "3362",
-      "name": "先進光",
-      "rs": 92.5,
-      "from_high": -21.1,
+      "symbol": "6226",
+      "name": "光鼎",
+      "rs": 97.5,
+      "from_high": -23.8,
       "tag": "光電業"
     },
     {
+      "rank": 13,
+      "symbol": "3006",
+      "name": "晶豪科",
+      "rs": 97.2,
+      "from_high": -6.2,
+      "tag": "半導體業"
+    },
+    {
       "rank": 14,
-      "symbol": "2527",
-      "name": "宏璟",
-      "rs": 91.5,
-      "from_high": -14.3,
-      "tag": "建材營造"
+      "symbol": "3441",
+      "name": "聯一光電",
+      "rs": 97.1,
+      "from_high": -11.9,
+      "tag": "光電業"
     },
     {
       "rank": 15,
-      "symbol": "2330",
-      "name": "台積電",
-      "rs": 90.9,
-      "from_high": -4.3,
+      "symbol": "6187",
+      "name": "萬潤",
+      "rs": 96.7,
+      "from_high": -24.2,
       "tag": "半導體業"
     },
     {
       "rank": 16,
-      "symbol": "2425",
-      "name": "承啟",
-      "rs": 90.6,
-      "from_high": -2.3,
-      "tag": "電腦及週邊設備業"
+      "symbol": "2464",
+      "name": "盟立",
+      "rs": 96.5,
+      "from_high": -16.0,
+      "tag": "其他電子業"
     },
     {
       "rank": 17,
-      "symbol": "6669",
-      "name": "緯穎",
-      "rs": 90.4,
-      "from_high": -8.3,
-      "tag": "電腦及週邊設備業"
+      "symbol": "5351",
+      "name": "鈺創",
+      "rs": 96.5,
+      "from_high": -5.9,
+      "tag": "半導體業"
     },
     {
       "rank": 18,
-      "symbol": "3702",
-      "name": "大聯大",
-      "rs": 90.0,
-      "from_high": -11.8,
-      "tag": "電子通路業"
+      "symbol": "3229",
+      "name": "晟鈦",
+      "rs": 96.1,
+      "from_high": -14.4,
+      "tag": "電子零組件業"
     },
     {
       "rank": 19,
-      "symbol": "6243",
-      "name": "迅杰",
-      "rs": 89.7,
-      "from_high": -8.6,
+      "symbol": "5274",
+      "name": "信驊",
+      "rs": 96.1,
+      "from_high": -17.8,
       "tag": "半導體業"
     },
     {
       "rank": 20,
-      "symbol": "2881",
-      "name": "富邦金",
-      "rs": 89.5,
-      "from_high": -7.8,
-      "tag": "金融保險業"
+      "symbol": "8271",
+      "name": "宇瞻",
+      "rs": 95.9,
+      "from_high": -13.1,
+      "tag": "半導體業"
     },
     {
       "rank": 21,
-      "symbol": "00939",
-      "name": "—",
-      "rs": 89.2,
-      "from_high": -0.1,
-      "tag": "ETF"
+      "symbol": "3443",
+      "name": "創意",
+      "rs": 95.8,
+      "from_high": -23.6,
+      "tag": "半導體業"
     },
     {
       "rank": 22,
-      "symbol": "6241",
-      "name": "鑫永洋",
-      "rs": 88.7,
-      "from_high": -12.3,
-      "tag": "通信網路業"
-    },
-    {
-      "rank": 23,
-      "symbol": "00918",
-      "name": "—",
-      "rs": 88.5,
-      "from_high": -0.5,
-      "tag": "ETF"
-    },
-    {
-      "rank": 24,
-      "symbol": "2890",
-      "name": "永豐金",
-      "rs": 88.4,
-      "from_high": -4.0,
-      "tag": "金融保險業"
-    },
-    {
-      "rank": 25,
-      "symbol": "2882",
-      "name": "國泰金",
-      "rs": 88.0,
-      "from_high": -13.6,
-      "tag": "金融保險業"
-    },
-    {
-      "rank": 26,
-      "symbol": "00938",
-      "name": "—",
-      "rs": 87.9,
-      "from_high": -4.7,
-      "tag": "ETF"
-    },
-    {
-      "rank": 27,
-      "symbol": "00878",
-      "name": "—",
-      "rs": 87.5,
-      "from_high": -6.3,
-      "tag": "ETF"
-    },
-    {
-      "rank": 28,
-      "symbol": "2880",
-      "name": "華南金",
-      "rs": 87.4,
-      "from_high": -3.2,
-      "tag": "金融保險業"
-    },
-    {
-      "rank": 29,
-      "symbol": "0055",
-      "name": "—",
-      "rs": 87.3,
-      "from_high": -0.1,
-      "tag": "ETF"
-    },
-    {
-      "rank": 30,
-      "symbol": "00640L",
-      "name": "—",
-      "rs": 87.1,
-      "from_high": -4.7,
-      "tag": "ETF"
-    },
-    {
-      "rank": 31,
-      "symbol": "2850",
-      "name": "新產",
-      "rs": 86.3,
-      "from_high": -2.1,
-      "tag": "金融保險業"
-    },
-    {
-      "rank": 32,
-      "symbol": "6598",
-      "name": "ABC-KY",
-      "rs": 86.2,
-      "from_high": -3.8,
+      "symbol": "6446",
+      "name": "藥華藥",
+      "rs": 95.7,
+      "from_high": -21.0,
       "tag": "生技醫療業"
     },
     {
-      "rank": 33,
-      "symbol": "2332",
-      "name": "友訊",
-      "rs": 85.8,
-      "from_high": -19.7,
+      "rank": 23,
+      "symbol": "6166",
+      "name": "凌華",
+      "rs": 95.4,
+      "from_high": -19.0,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 24,
+      "symbol": "3017",
+      "name": "奇鋐",
+      "rs": 95.4,
+      "from_high": -7.5,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 25,
+      "symbol": "2455",
+      "name": "全新",
+      "rs": 94.9,
+      "from_high": -20.9,
       "tag": "通信網路業"
     },
     {
+      "rank": 26,
+      "symbol": "4916",
+      "name": "事欣科",
+      "rs": 94.6,
+      "from_high": -15.3,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 27,
+      "symbol": "6538",
+      "name": "倉和",
+      "rs": 94.5,
+      "from_high": -11.0,
+      "tag": "電子零組件業"
+    },
+    {
+      "rank": 28,
+      "symbol": "3653",
+      "name": "健策",
+      "rs": 94.2,
+      "from_high": -23.0,
+      "tag": "電子零組件業"
+    },
+    {
+      "rank": 29,
+      "symbol": "3008",
+      "name": "大立光",
+      "rs": 94.0,
+      "from_high": -18.2,
+      "tag": "光電業"
+    },
+    {
+      "rank": 30,
+      "symbol": "4967",
+      "name": "十銓",
+      "rs": 93.9,
+      "from_high": -13.3,
+      "tag": "半導體業"
+    },
+    {
+      "rank": 31,
+      "symbol": "3577",
+      "name": "泓格",
+      "rs": 93.6,
+      "from_high": -19.3,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 32,
+      "symbol": "2395",
+      "name": "研華",
+      "rs": 93.3,
+      "from_high": -5.7,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 33,
+      "symbol": "2451",
+      "name": "創見",
+      "rs": 92.9,
+      "from_high": -22.5,
+      "tag": "半導體業"
+    },
+    {
       "rank": 34,
-      "symbol": "00642U",
-      "name": "—",
-      "rs": 85.6,
-      "from_high": -20.0,
-      "tag": "ETF"
+      "symbol": "2887",
+      "name": "台新新光金",
+      "rs": 92.8,
+      "from_high": -6.9,
+      "tag": "金融保險業"
     },
     {
       "rank": 35,
-      "symbol": "5515",
-      "name": "建國",
-      "rs": 85.6,
-      "from_high": -5.2,
-      "tag": "建材營造"
+      "symbol": "4534",
+      "name": "慶騰",
+      "rs": 92.8,
+      "from_high": -22.9,
+      "tag": "電機機械"
     },
     {
       "rank": 36,
-      "symbol": "00701",
-      "name": "—",
-      "rs": 85.1,
-      "from_high": -2.9,
-      "tag": "ETF"
+      "symbol": "2425",
+      "name": "承啟",
+      "rs": 92.7,
+      "from_high": 0.0,
+      "tag": "電腦及週邊設備業"
     },
     {
       "rank": 37,
-      "symbol": "00875",
-      "name": "—",
-      "rs": 84.7,
-      "from_high": -5.6,
-      "tag": "ETF"
+      "symbol": "2883",
+      "name": "凱基金",
+      "rs": 92.4,
+      "from_high": -2.8,
+      "tag": "金融保險業"
     },
     {
       "rank": 38,
-      "symbol": "2347",
-      "name": "聯強",
-      "rs": 84.6,
-      "from_high": -4.7,
-      "tag": "電子通路業"
+      "symbol": "1326",
+      "name": "台化",
+      "rs": 91.9,
+      "from_high": -24.1,
+      "tag": "塑膠工業"
     },
     {
       "rank": 39,
-      "symbol": "00915",
-      "name": "—",
-      "rs": 84.5,
-      "from_high": -6.2,
-      "tag": "ETF"
+      "symbol": "2885",
+      "name": "元大金",
+      "rs": 91.5,
+      "from_high": -6.4,
+      "tag": "金融保險業"
     },
     {
       "rank": 40,
-      "symbol": "2535",
-      "name": "達欣工",
-      "rs": 84.4,
-      "from_high": -10.5,
+      "symbol": "2527",
+      "name": "宏璟",
+      "rs": 91.3,
+      "from_high": -9.4,
       "tag": "建材營造"
     },
     {
       "rank": 41,
-      "symbol": "2377",
-      "name": "微星",
-      "rs": 84.0,
-      "from_high": -10.1,
-      "tag": "電腦及週邊設備業"
+      "symbol": "3362",
+      "name": "先進光",
+      "rs": 91.3,
+      "from_high": -20.4,
+      "tag": "光電業"
     },
     {
       "rank": 42,
-      "symbol": "3231",
-      "name": "緯創",
-      "rs": 84.0,
-      "from_high": -12.4,
-      "tag": "電腦及週邊設備業"
-    },
-    {
-      "rank": 43,
-      "symbol": "00897",
-      "name": "—",
-      "rs": 83.8,
-      "from_high": -5.2,
-      "tag": "ETF"
-    },
-    {
-      "rank": 44,
-      "symbol": "6414",
-      "name": "樺漢",
-      "rs": 83.6,
-      "from_high": -22.4,
-      "tag": "電腦及週邊設備業"
-    },
-    {
-      "rank": 45,
-      "symbol": "2414",
-      "name": "精技",
-      "rs": 83.5,
-      "from_high": -14.3,
+      "symbol": "3702",
+      "name": "大聯大",
+      "rs": 90.9,
+      "from_high": -5.0,
       "tag": "電子通路業"
     },
     {
-      "rank": 46,
-      "symbol": "2886",
-      "name": "兆豐金",
-      "rs": 83.4,
-      "from_high": -1.1,
-      "tag": "金融保險業"
-    },
-    {
-      "rank": 47,
-      "symbol": "00961",
-      "name": "—",
-      "rs": 83.2,
+      "rank": 43,
+      "symbol": "6669",
+      "name": "緯穎",
+      "rs": 90.9,
       "from_high": -4.7,
-      "tag": "ETF"
+      "tag": "電腦及週邊設備業"
     },
     {
-      "rank": 48,
+      "rank": 44,
       "symbol": "1709",
       "name": "和益",
-      "rs": 82.8,
-      "from_high": -19.2,
+      "rs": 90.6,
+      "from_high": -2.8,
       "tag": "化學工業"
     },
     {
+      "rank": 45,
+      "symbol": "6414",
+      "name": "樺漢",
+      "rs": 89.8,
+      "from_high": -9.2,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 46,
+      "symbol": "3605",
+      "name": "宏致",
+      "rs": 89.7,
+      "from_high": -4.9,
+      "tag": "電子零組件業"
+    },
+    {
+      "rank": 47,
+      "symbol": "3066",
+      "name": "李洲",
+      "rs": 89.6,
+      "from_high": -23.8,
+      "tag": "光電業"
+    },
+    {
+      "rank": 48,
+      "symbol": "2049",
+      "name": "上銀",
+      "rs": 89.4,
+      "from_high": -9.2,
+      "tag": "電機機械"
+    },
+    {
       "rank": 49,
-      "symbol": "00919",
+      "symbol": "00728",
       "name": "—",
-      "rs": 82.7,
-      "from_high": -4.7,
+      "rs": 89.4,
+      "from_high": -7.2,
       "tag": "ETF"
     },
     {
       "rank": 50,
-      "symbol": "00678",
-      "name": "—",
-      "rs": 82.7,
-      "from_high": -3.1,
-      "tag": "ETF"
+      "symbol": "2301",
+      "name": "光寶科",
+      "rs": 88.6,
+      "from_high": -8.0,
+      "tag": "電腦及週邊設備業"
     },
     {
       "rank": 51,
-      "symbol": "00731",
-      "name": "—",
-      "rs": 82.3,
-      "from_high": -1.2,
-      "tag": "ETF"
+      "symbol": "3141",
+      "name": "晶宏",
+      "rs": 88.4,
+      "from_high": -7.2,
+      "tag": "半導體業"
     },
     {
       "rank": 52,
-      "symbol": "00898",
+      "symbol": "00985A",
       "name": "—",
-      "rs": 81.7,
-      "from_high": -2.6,
+      "rs": 88.3,
+      "from_high": -7.3,
       "tag": "ETF"
     },
     {
       "rank": 53,
-      "symbol": "6277",
-      "name": "宏正",
-      "rs": 80.7,
-      "from_high": -5.6,
-      "tag": "電腦及週邊設備業"
+      "symbol": "6241",
+      "name": "鑫永洋",
+      "rs": 88.0,
+      "from_high": -17.0,
+      "tag": "通信網路業"
     },
     {
       "rank": 54,
-      "symbol": "2892",
-      "name": "第一金",
-      "rs": 80.4,
-      "from_high": -0.4,
-      "tag": "金融保險業"
+      "symbol": "8050",
+      "name": "廣積",
+      "rs": 87.8,
+      "from_high": -0.6,
+      "tag": "電腦及週邊設備業"
     },
     {
       "rank": 55,
-      "symbol": "1301",
-      "name": "台塑",
-      "rs": 80.3,
-      "from_high": -21.2,
-      "tag": "塑膠工業"
+      "symbol": "3022",
+      "name": "威強電",
+      "rs": 87.1,
+      "from_high": -2.8,
+      "tag": "電腦及週邊設備業"
     },
     {
       "rank": 56,
-      "symbol": "00972",
+      "symbol": "4541",
+      "name": "晟田",
+      "rs": 87.0,
+      "from_high": -19.2,
+      "tag": "其他"
+    },
+    {
+      "rank": 57,
+      "symbol": "00980A",
       "name": "—",
-      "rs": 79.9,
+      "rs": 86.7,
+      "from_high": -8.5,
+      "tag": "ETF"
+    },
+    {
+      "rank": 58,
+      "symbol": "00918",
+      "name": "—",
+      "rs": 86.2,
       "from_high": -1.2,
       "tag": "ETF"
     },
     {
-      "rank": 57,
-      "symbol": "1467",
-      "name": "南緯",
-      "rs": 79.9,
-      "from_high": -12.3,
-      "tag": "紡織纖維"
-    },
-    {
-      "rank": 58,
-      "symbol": "00960",
-      "name": "—",
-      "rs": 79.7,
-      "from_high": -0.2,
-      "tag": "ETF"
-    },
-    {
       "rank": 59,
-      "symbol": "5288",
-      "name": "豐祥-KY",
-      "rs": 79.5,
-      "from_high": -9.4,
-      "tag": "電機機械"
+      "symbol": "2332",
+      "name": "友訊",
+      "rs": 86.1,
+      "from_high": -16.3,
+      "tag": "通信網路業"
     },
     {
       "rank": 60,
-      "symbol": "3034",
-      "name": "聯詠",
-      "rs": 79.3,
-      "from_high": -14.4,
-      "tag": "半導體業"
+      "symbol": "2103",
+      "name": "台橡",
+      "rs": 85.9,
+      "from_high": -9.4,
+      "tag": "橡膠工業"
     },
     {
       "rank": 61,
-      "symbol": "3022",
-      "name": "威強電",
-      "rs": 77.9,
-      "from_high": -11.2,
+      "symbol": "2377",
+      "name": "微星",
+      "rs": 85.8,
+      "from_high": -3.2,
       "tag": "電腦及週邊設備業"
     },
     {
       "rank": 62,
-      "symbol": "2801",
-      "name": "彰銀",
-      "rs": 77.9,
-      "from_high": -1.9,
-      "tag": "金融保險業"
+      "symbol": "1590",
+      "name": "亞德客-KY",
+      "rs": 85.5,
+      "from_high": -3.4,
+      "tag": "電機機械"
     },
     {
       "rank": 63,
-      "symbol": "00852L",
-      "name": "—",
-      "rs": 77.8,
-      "from_high": -2.4,
-      "tag": "ETF"
+      "symbol": "2880",
+      "name": "華南金",
+      "rs": 85.3,
+      "from_high": -1.7,
+      "tag": "金融保險業"
     },
     {
       "rank": 64,
-      "symbol": "00645",
+      "symbol": "00939",
       "name": "—",
-      "rs": 77.2,
-      "from_high": -2.2,
+      "rs": 85.2,
+      "from_high": -1.2,
       "tag": "ETF"
     },
     {
       "rank": 65,
-      "symbol": "00956",
-      "name": "—",
-      "rs": 77.1,
-      "from_high": -2.7,
-      "tag": "ETF"
+      "symbol": "2850",
+      "name": "新產",
+      "rs": 85.0,
+      "from_high": -1.8,
+      "tag": "金融保險業"
     },
     {
       "rank": 66,
-      "symbol": "2618",
-      "name": "長榮航",
-      "rs": 77.0,
-      "from_high": -5.1,
-      "tag": "航運業"
+      "symbol": "3479",
+      "name": "安勤",
+      "rs": 84.8,
+      "from_high": -14.5,
+      "tag": "電腦及週邊設備業"
     },
     {
       "rank": 67,
-      "symbol": "00949",
+      "symbol": "00875",
       "name": "—",
-      "rs": 76.9,
-      "from_high": -0.6,
+      "rs": 84.7,
+      "from_high": -1.9,
       "tag": "ETF"
     },
     {
       "rank": 68,
-      "symbol": "00647L",
+      "symbol": "00912",
       "name": "—",
-      "rs": 76.8,
-      "from_high": -2.6,
+      "rs": 84.6,
+      "from_high": -8.6,
       "tag": "ETF"
     },
     {
       "rank": 69,
-      "symbol": "2816",
-      "name": "旺旺保",
-      "rs": 76.4,
-      "from_high": -6.1,
-      "tag": "金融保險業"
+      "symbol": "6570",
+      "name": "維田",
+      "rs": 84.4,
+      "from_high": -11.8,
+      "tag": "電腦及週邊設備業"
     },
     {
       "rank": 70,
-      "symbol": "2546",
-      "name": "根基",
-      "rs": 76.0,
-      "from_high": -1.0,
-      "tag": "建材營造"
+      "symbol": "8016",
+      "name": "矽創",
+      "rs": 84.3,
+      "from_high": -17.5,
+      "tag": "半導體業"
     },
     {
       "rank": 71,
-      "symbol": "00963",
-      "name": "—",
-      "rs": 75.9,
-      "from_high": -0.1,
-      "tag": "ETF"
+      "symbol": "2881",
+      "name": "富邦金",
+      "rs": 84.0,
+      "from_high": -9.9,
+      "tag": "金融保險業"
     },
     {
       "rank": 72,
-      "symbol": "009810",
-      "name": "—",
-      "rs": 75.8,
-      "from_high": -0.0,
-      "tag": "ETF"
+      "symbol": "2882",
+      "name": "國泰金",
+      "rs": 83.8,
+      "from_high": -15.4,
+      "tag": "金融保險業"
     },
     {
       "rank": 73,
-      "symbol": "2637",
-      "name": "慧洋-KY",
-      "rs": 75.3,
-      "from_high": -11.0,
-      "tag": "航運業"
+      "symbol": "6691",
+      "name": "洋基工程",
+      "rs": 83.7,
+      "from_high": -11.9,
+      "tag": "其他電子業"
     },
     {
       "rank": 74,
-      "symbol": "00709",
-      "name": "—",
-      "rs": 75.0,
-      "from_high": 0.0,
-      "tag": "ETF"
+      "symbol": "5515",
+      "name": "建國",
+      "rs": 83.7,
+      "from_high": -4.4,
+      "tag": "建材營造"
     },
     {
       "rank": 75,
-      "symbol": "00668",
-      "name": "—",
-      "rs": 74.8,
-      "from_high": -0.6,
-      "tag": "ETF"
+      "symbol": "2890",
+      "name": "永豐金",
+      "rs": 83.6,
+      "from_high": -7.9,
+      "tag": "金融保險業"
     },
     {
       "rank": 76,
-      "symbol": "00646",
+      "symbol": "00878",
       "name": "—",
-      "rs": 74.4,
-      "from_high": -0.9,
+      "rs": 83.5,
+      "from_high": -5.2,
       "tag": "ETF"
     },
     {
       "rank": 77,
-      "symbol": "00924",
+      "symbol": "0055",
       "name": "—",
-      "rs": 73.9,
-      "from_high": -2.4,
+      "rs": 83.3,
+      "from_high": -2.1,
       "tag": "ETF"
     },
     {
       "rank": 78,
-      "symbol": "00736",
-      "name": "—",
-      "rs": 73.1,
-      "from_high": -1.4,
-      "tag": "ETF"
+      "symbol": "2423",
+      "name": "固緯",
+      "rs": 83.2,
+      "from_high": -13.0,
+      "tag": "其他電子業"
     },
     {
       "rank": 79,
-      "symbol": "00763U",
+      "symbol": "00946",
       "name": "—",
-      "rs": 72.4,
-      "from_high": -3.1,
+      "rs": 82.9,
+      "from_high": -6.8,
       "tag": "ETF"
     },
     {
       "rank": 80,
-      "symbol": "3669",
-      "name": "圓展",
-      "rs": 71.0,
-      "from_high": -11.6,
+      "symbol": "00938",
+      "name": "—",
+      "rs": 82.9,
+      "from_high": -6.7,
+      "tag": "ETF"
+    },
+    {
+      "rank": 81,
+      "symbol": "00640L",
+      "name": "—",
+      "rs": 82.8,
+      "from_high": -2.1,
+      "tag": "ETF"
+    },
+    {
+      "rank": 82,
+      "symbol": "6243",
+      "name": "迅杰",
+      "rs": 82.6,
+      "from_high": -13.7,
+      "tag": "半導體業"
+    },
+    {
+      "rank": 83,
+      "symbol": "5288",
+      "name": "豐祥-KY",
+      "rs": 82.5,
+      "from_high": -4.7,
+      "tag": "電機機械"
+    },
+    {
+      "rank": 84,
+      "symbol": "2379",
+      "name": "瑞昱",
+      "rs": 82.5,
+      "from_high": -22.7,
+      "tag": "半導體業"
+    },
+    {
+      "rank": 85,
+      "symbol": "6579",
+      "name": "研揚",
+      "rs": 82.4,
+      "from_high": -9.5,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 86,
+      "symbol": "2535",
+      "name": "達欣工",
+      "rs": 82.1,
+      "from_high": -8.6,
+      "tag": "建材營造"
+    },
+    {
+      "rank": 87,
+      "symbol": "3231",
+      "name": "緯創",
+      "rs": 82.1,
+      "from_high": -9.4,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 88,
+      "symbol": "3709",
+      "name": "鑫聯大投控",
+      "rs": 82.0,
+      "from_high": -14.5,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 89,
+      "symbol": "3594",
+      "name": "磐儀",
+      "rs": 81.9,
+      "from_high": -3.1,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 90,
+      "symbol": "2006",
+      "name": "東和鋼鐵",
+      "rs": 81.9,
+      "from_high": 0.0,
+      "tag": "鋼鐵工業"
+    },
+    {
+      "rank": 91,
+      "symbol": "2347",
+      "name": "聯強",
+      "rs": 81.8,
+      "from_high": -5.0,
+      "tag": "電子通路業"
+    },
+    {
+      "rank": 92,
+      "symbol": "8112",
+      "name": "至上",
+      "rs": 81.6,
+      "from_high": -12.3,
+      "tag": "電子通路業"
+    },
+    {
+      "rank": 93,
+      "symbol": "3516",
+      "name": "亞帝歐",
+      "rs": 81.4,
+      "from_high": -13.4,
+      "tag": "光電業"
+    },
+    {
+      "rank": 94,
+      "symbol": "1467",
+      "name": "南緯",
+      "rs": 81.3,
+      "from_high": -7.5,
+      "tag": "紡織纖維"
+    },
+    {
+      "rank": 95,
+      "symbol": "00915",
+      "name": "—",
+      "rs": 81.0,
+      "from_high": -5.5,
+      "tag": "ETF"
+    },
+    {
+      "rank": 96,
+      "symbol": "6227",
+      "name": "茂綸",
+      "rs": 81.0,
+      "from_high": -14.0,
+      "tag": "電子通路業"
+    },
+    {
+      "rank": 97,
+      "symbol": "00897",
+      "name": "—",
+      "rs": 80.7,
+      "from_high": -4.1,
+      "tag": "ETF"
+    },
+    {
+      "rank": 98,
+      "symbol": "00701",
+      "name": "—",
+      "rs": 80.5,
+      "from_high": -5.0,
+      "tag": "ETF"
+    },
+    {
+      "rank": 99,
+      "symbol": "6206",
+      "name": "飛捷",
+      "rs": 80.4,
+      "from_high": -6.2,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 100,
+      "symbol": "2476",
+      "name": "鉅祥",
+      "rs": 80.3,
+      "from_high": -10.4,
+      "tag": "電子零組件業"
+    },
+    {
+      "rank": 101,
+      "symbol": "3023",
+      "name": "信邦",
+      "rs": 80.2,
+      "from_high": -10.0,
+      "tag": "電子零組件業"
+    },
+    {
+      "rank": 102,
+      "symbol": "1904",
+      "name": "正隆",
+      "rs": 80.1,
+      "from_high": -7.7,
+      "tag": "造紙工業"
+    },
+    {
+      "rank": 103,
+      "symbol": "6598",
+      "name": "ABC-KY",
+      "rs": 80.0,
+      "from_high": -9.7,
+      "tag": "生技醫療業"
+    },
+    {
+      "rank": 104,
+      "symbol": "2637",
+      "name": "慧洋-KY",
+      "rs": 80.0,
+      "from_high": -0.6,
+      "tag": "航運業"
+    },
+    {
+      "rank": 105,
+      "symbol": "009807",
+      "name": "—",
+      "rs": 79.9,
+      "from_high": -3.2,
+      "tag": "ETF"
+    },
+    {
+      "rank": 106,
+      "symbol": "00962",
+      "name": "—",
+      "rs": 79.5,
+      "from_high": -9.0,
+      "tag": "ETF"
+    },
+    {
+      "rank": 107,
+      "symbol": "00961",
+      "name": "—",
+      "rs": 79.4,
+      "from_high": -4.0,
+      "tag": "ETF"
+    },
+    {
+      "rank": 108,
+      "symbol": "00678",
+      "name": "—",
+      "rs": 79.1,
+      "from_high": -3.2,
+      "tag": "ETF"
+    },
+    {
+      "rank": 109,
+      "symbol": "3489",
+      "name": "森寶",
+      "rs": 79.1,
+      "from_high": -1.5,
+      "tag": "建材營造"
+    },
+    {
+      "rank": 110,
+      "symbol": "8109",
+      "name": "博大",
+      "rs": 79.0,
+      "from_high": -20.4,
+      "tag": "電子零組件業"
+    },
+    {
+      "rank": 111,
+      "symbol": "00731",
+      "name": "—",
+      "rs": 79.0,
+      "from_high": -1.3,
+      "tag": "ETF"
+    },
+    {
+      "rank": 112,
+      "symbol": "00919",
+      "name": "—",
+      "rs": 79.0,
+      "from_high": -4.2,
+      "tag": "ETF"
+    },
+    {
+      "rank": 113,
+      "symbol": "00972",
+      "name": "—",
+      "rs": 78.8,
+      "from_high": -0.6,
+      "tag": "ETF"
+    },
+    {
+      "rank": 114,
+      "symbol": "00898",
+      "name": "—",
+      "rs": 78.6,
+      "from_high": -1.0,
+      "tag": "ETF"
+    },
+    {
+      "rank": 115,
+      "symbol": "00934",
+      "name": "—",
+      "rs": 78.5,
+      "from_high": -4.3,
+      "tag": "ETF"
+    },
+    {
+      "rank": 116,
+      "symbol": "1301",
+      "name": "台塑",
+      "rs": 78.4,
+      "from_high": -20.1,
+      "tag": "塑膠工業"
+    },
+    {
+      "rank": 117,
+      "symbol": "2886",
+      "name": "兆豐金",
+      "rs": 78.2,
+      "from_high": -5.2,
+      "tag": "金融保險業"
+    },
+    {
+      "rank": 118,
+      "symbol": "7704",
+      "name": "明遠精密",
+      "rs": 78.1,
+      "from_high": -13.5,
+      "tag": "半導體業"
+    },
+    {
+      "rank": 119,
+      "symbol": "2388",
+      "name": "威盛",
+      "rs": 78.0,
+      "from_high": -14.7,
+      "tag": "半導體業"
+    },
+    {
+      "rank": 120,
+      "symbol": "2465",
+      "name": "麗臺",
+      "rs": 77.7,
+      "from_high": -9.3,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 121,
+      "symbol": "00770",
+      "name": "—",
+      "rs": 77.6,
+      "from_high": -3.1,
+      "tag": "ETF"
+    },
+    {
+      "rank": 122,
+      "symbol": "00921",
+      "name": "—",
+      "rs": 77.5,
+      "from_high": -2.3,
+      "tag": "ETF"
+    },
+    {
+      "rank": 123,
+      "symbol": "2362",
+      "name": "藍天",
+      "rs": 77.5,
+      "from_high": -3.1,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 124,
+      "symbol": "00960",
+      "name": "—",
+      "rs": 77.4,
+      "from_high": -0.6,
+      "tag": "ETF"
+    },
+    {
+      "rank": 125,
+      "symbol": "6277",
+      "name": "宏正",
+      "rs": 77.4,
+      "from_high": -6.8,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 126,
+      "symbol": "00936",
+      "name": "—",
+      "rs": 77.3,
+      "from_high": -2.9,
+      "tag": "ETF"
+    },
+    {
+      "rank": 127,
+      "symbol": "4566",
+      "name": "時碩工業",
+      "rs": 77.2,
+      "from_high": -0.8,
+      "tag": "電機機械"
+    },
+    {
+      "rank": 128,
+      "symbol": "6547",
+      "name": "高端疫苗",
+      "rs": 77.1,
+      "from_high": -15.7,
+      "tag": "生技醫療業"
+    },
+    {
+      "rank": 129,
+      "symbol": "2027",
+      "name": "大成鋼",
+      "rs": 77.0,
+      "from_high": -0.7,
+      "tag": "鋼鐵工業"
+    },
+    {
+      "rank": 130,
+      "symbol": "00852L",
+      "name": "—",
+      "rs": 76.9,
+      "from_high": -2.6,
+      "tag": "ETF"
+    },
+    {
+      "rank": 131,
+      "symbol": "00940",
+      "name": "—",
+      "rs": 76.8,
+      "from_high": -4.3,
+      "tag": "ETF"
+    },
+    {
+      "rank": 132,
+      "symbol": "3213",
+      "name": "茂訊",
+      "rs": 76.7,
+      "from_high": -7.1,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 133,
+      "symbol": "2634",
+      "name": "漢翔",
+      "rs": 76.5,
+      "from_high": -18.1,
+      "tag": "航運業"
+    },
+    {
+      "rank": 134,
+      "symbol": "2892",
+      "name": "第一金",
+      "rs": 76.1,
+      "from_high": -3.7,
+      "tag": "金融保險業"
+    },
+    {
+      "rank": 135,
+      "symbol": "6416",
+      "name": "瑞祺電通",
+      "rs": 76.0,
+      "from_high": -6.4,
       "tag": "通信網路業"
+    },
+    {
+      "rank": 136,
+      "symbol": "00647L",
+      "name": "—",
+      "rs": 75.8,
+      "from_high": -1.7,
+      "tag": "ETF"
+    },
+    {
+      "rank": 137,
+      "symbol": "2816",
+      "name": "旺旺保",
+      "rs": 75.7,
+      "from_high": -5.4,
+      "tag": "金融保險業"
+    },
+    {
+      "rank": 138,
+      "symbol": "00956",
+      "name": "—",
+      "rs": 75.5,
+      "from_high": -0.2,
+      "tag": "ETF"
+    },
+    {
+      "rank": 139,
+      "symbol": "2030",
+      "name": "彰源",
+      "rs": 75.5,
+      "from_high": -7.9,
+      "tag": "鋼鐵工業"
+    },
+    {
+      "rank": 140,
+      "symbol": "2618",
+      "name": "長榮航",
+      "rs": 75.4,
+      "from_high": -2.7,
+      "tag": "航運業"
+    },
+    {
+      "rank": 141,
+      "symbol": "2376",
+      "name": "技嘉",
+      "rs": 75.3,
+      "from_high": -14.4,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 142,
+      "symbol": "6214",
+      "name": "精誠",
+      "rs": 75.1,
+      "from_high": -9.6,
+      "tag": "資訊服務業"
+    },
+    {
+      "rank": 143,
+      "symbol": "009810",
+      "name": "—",
+      "rs": 75.1,
+      "from_high": -0.8,
+      "tag": "ETF"
+    },
+    {
+      "rank": 144,
+      "symbol": "3034",
+      "name": "聯詠",
+      "rs": 75.0,
+      "from_high": -10.6,
+      "tag": "半導體業"
+    },
+    {
+      "rank": 145,
+      "symbol": "00730",
+      "name": "—",
+      "rs": 74.7,
+      "from_high": -2.7,
+      "tag": "ETF"
+    },
+    {
+      "rank": 146,
+      "symbol": "00645",
+      "name": "—",
+      "rs": 74.6,
+      "from_high": -0.9,
+      "tag": "ETF"
+    },
+    {
+      "rank": 147,
+      "symbol": "00903",
+      "name": "—",
+      "rs": 74.4,
+      "from_high": -8.6,
+      "tag": "ETF"
+    },
+    {
+      "rank": 148,
+      "symbol": "00949",
+      "name": "—",
+      "rs": 74.3,
+      "from_high": -0.1,
+      "tag": "ETF"
+    },
+    {
+      "rank": 149,
+      "symbol": "00662",
+      "name": "—",
+      "rs": 74.1,
+      "from_high": -1.8,
+      "tag": "ETF"
+    },
+    {
+      "rank": 150,
+      "symbol": "00924",
+      "name": "—",
+      "rs": 74.0,
+      "from_high": -1.0,
+      "tag": "ETF"
+    },
+    {
+      "rank": 151,
+      "symbol": "009800",
+      "name": "—",
+      "rs": 73.9,
+      "from_high": -1.8,
+      "tag": "ETF"
+    },
+    {
+      "rank": 152,
+      "symbol": "00668",
+      "name": "—",
+      "rs": 73.6,
+      "from_high": -1.4,
+      "tag": "ETF"
+    },
+    {
+      "rank": 153,
+      "symbol": "00646",
+      "name": "—",
+      "rs": 73.1,
+      "from_high": -1.0,
+      "tag": "ETF"
+    },
+    {
+      "rank": 154,
+      "symbol": "009806",
+      "name": "—",
+      "rs": 72.7,
+      "from_high": -1.0,
+      "tag": "ETF"
+    },
+    {
+      "rank": 155,
+      "symbol": "2601",
+      "name": "益航",
+      "rs": 72.7,
+      "from_high": -24.5,
+      "tag": "航運業"
+    },
+    {
+      "rank": 156,
+      "symbol": "00963",
+      "name": "—",
+      "rs": 72.4,
+      "from_high": -1.1,
+      "tag": "ETF"
+    },
+    {
+      "rank": 157,
+      "symbol": "00709",
+      "name": "—",
+      "rs": 71.7,
+      "from_high": -0.2,
+      "tag": "ETF"
+    },
+    {
+      "rank": 158,
+      "symbol": "3046",
+      "name": "建碁",
+      "rs": 71.2,
+      "from_high": -11.4,
+      "tag": "電腦及週邊設備業"
+    },
+    {
+      "rank": 159,
+      "symbol": "2108",
+      "name": "南帝",
+      "rs": 70.6,
+      "from_high": -12.2,
+      "tag": "橡膠工業"
     }
   ]
 }
